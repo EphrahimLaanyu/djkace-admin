@@ -215,7 +215,7 @@ const EditModal = ({ track, onClose, onSave }) => {
         ) : (
             <>
                 <div style={styles.header}>
-                    <h3>EDIT RECORD: {track.id}</h3>
+                    <h3>EDIT RECORD</h3>
                     <button onClick={onClose} style={styles.closeBtn}>×</button>
                 </div>
 
